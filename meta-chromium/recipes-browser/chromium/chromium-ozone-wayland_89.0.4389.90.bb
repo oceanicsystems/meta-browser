@@ -39,4 +39,5 @@ GN_ARGS += "use_x11=false"
 
 # The chromium binary must always be started with those arguments.
 CHROMIUM_EXTRA_ARGS_append = " --ozone-platform=wayland"
-
+GN_ARGS_append_raspberrypi4 = " use_wayland_gbm=false"
+GN_ARGS_append_raspberrypi4-64 = " use_wayland_gbm=false"
