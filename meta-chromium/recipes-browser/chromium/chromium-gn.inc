@@ -22,6 +22,8 @@ SRC_URI += " \
     file://0011-Fix-use-of-DCHECK-with-std-unique_ptr.patch \
     file://0012-IWYU-add-ctime-for-std-time.patch \
     file://0013-mojo-Include-string.h-for-strncpy-declaration.patch \
+    file://0014-fix-white-flash.patch \
+    file://0015-fix-white-flash-2.patch \
 "
 
 SRC_URI_append_libc-musl = "\
