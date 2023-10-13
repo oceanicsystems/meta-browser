@@ -27,6 +27,7 @@ GN_ARGS += "\
         use_system_libwayland=true \
         use_system_minigbm=true \
         use_system_libdrm=true \
+        use_system_libffi=true \
         use_gtk=false \
 "
 
